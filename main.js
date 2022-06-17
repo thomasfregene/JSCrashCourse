@@ -17,9 +17,9 @@ const todos = [
 ];
 
 //forEach, map, filter
-const todoText = todos.map(function(todo){
-    return todo.text;
+const todoCompleted = todos.filter(function(todo){
+    return todo.isCompleted === true;
 });
 
-console.log(todoText);
+console.log(todoCompleted);
 
