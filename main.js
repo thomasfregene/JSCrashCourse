@@ -17,14 +17,7 @@ const todos = [
 ];
 
 //for loop
-for(let i = 0; i <= 10; i++){
-    console.log(`For Loop Number: ${i}`);
+for(let i = 0; i < todos.length; i++){
+    console.log(todos[i].text);
 }
 
-
-//while
-let i = 0;
-while(i<10){
-    console.log(`While Loop Number: ${i}`);
-    i++;
-}
