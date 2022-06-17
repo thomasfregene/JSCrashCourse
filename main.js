@@ -1,3 +1,8 @@
-console.log("Hello World");
-console.error("this is an error");
-console.warn("this is a warning");
+//var, let, const
+let score;
+score = 31
+
+const age = 40;
+console.log(score);
+
+console.log(age);
