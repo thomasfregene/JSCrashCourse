@@ -16,8 +16,7 @@ const todos = [
     }
 ];
 
-//for loop
-for(let i = 0; i < todos.length; i++){
-    console.log(todos[i].text);
+for(let todo of todos){
+    console.log(todo.text);
 }
 
