@@ -16,8 +16,15 @@ const todos = [
     }
 ];
 
-console.log(todos[1].text);
+//for loop
+for(let i = 0; i <= 10; i++){
+    console.log(`For Loop Number: ${i}`);
+}
 
-//convert to JSON
-const todosJSON = JSON.stringify(todos);
-console.log(todosJSON)
+
+//while
+let i = 0;
+while(i<10){
+    console.log(`While Loop Number: ${i}`);
+    i++;
+}
