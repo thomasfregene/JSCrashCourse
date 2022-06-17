@@ -1,16 +1,7 @@
-//conditionals
-const x = 11;
-
-const color = x > 10 ? 'red' : 'blue';
-
-switch(color){
-    case 'red':
-        console.log('color is red');
-        break;
-    case 'blue':
-        console.log('color is blue');
-        break;
-    default:
-        console.log('color is NOT  red or blue');
-        break;
+//functions
+function addNums(num1 = 1, num2 = 1){
+    //console.log(num1 + num2);
+    return num1 + num2;
 }
+
+console.log(addNums(5, 5));
