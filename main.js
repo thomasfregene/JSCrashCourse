@@ -1,21 +1,23 @@
-//object literals
-const person ={
-    firstName: 'John',
-    lastName: 'Doe',
-    age: 30,
-    hobbies: ['music', 'movies', 'sports'],
-    address:{
-        street: '50 main str',
-        city: 'Boston',
-        state: 'MA'
+const todos = [
+    {
+        id: 1, 
+        text: 'Take out trash',
+        isCompleted: true
+    },
+    {
+        id: 2, 
+        text: 'Meeting with boss',
+        isCompleted: true
+    },
+    {
+        id: 3, 
+        text: 'Dentist Appointment',
+        isCompleted: false
     }
-}
+];
 
-//adding more property to the object
-person.email = 'john@gmail.com'
+console.log(todos[1].text);
 
-console.log(person);
-
-//destructuring
-const {firstName, lastName, address:{city, state}} = person;
-console.log(state);
+//convert to JSON
+const todosJSON = JSON.stringify(todos);
+console.log(todosJSON)
